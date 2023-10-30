@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CreatiLearn</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./creatilearn.png">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>CreatiLearn</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="classes.html" class="nav-item nav-link">Materi</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="facility.html" class="dropdown-item">Fasilitas CreatiLearn</a>
+                            <a href="team.html" class="dropdown-item">CEO & FOUNDER</a>
+                            <a href="call-to-action.html" class="dropdown-item">Pendaftaran</a>
+                            <a href="appointment.html" class="dropdown-item">Donasi</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimoni</a>
+                            <a href="login/index.php" class="dropdown-item">login</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontak Kami</a>
+                </div>
+                <a href="login/index.php" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Login/Register<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Pilihan Terbaik Untuk Anak Pra sekolah</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Dengan Materi Lengkap Sesuai Kebutuhan Sang Buah Hati.</p>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Pelajari Selengkapnya.</a>
+                                    <a href="classes.html" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Daftar Materi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Menciptakan Kreatifitas Dan MengAktifkan Imajinasi Anak</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                    <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Pelajari Selengkapnya</a>
+                                    <a href="classes.html" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Daftar Materi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Membangun Karakter Anak</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                    <a href="login/materi.html" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Pelajari Selengkapnya</a>
+                                    <a href="classes.htmla" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Daftar Materi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        
+        <!-- Carousel End -->
+
+
+        <!-- Facilities Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Fasilitas Di CreatiLearn</h1>
+                    <p>Terdapat Fasilitas Yang Ada DI CreatiLearn.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-primary">
+                                <span class="bg-primary"></span>
+                                <i class="fa fa-book fa-3x text-primary"></i>
+                                <span class="bg-primary"></span>
+                            </div>
+                            <div class="facility-text bg-primary">
+                                <h3 class="text-primary mb-3">Matri Lengkap</h3>
+                                <p class="mb-0"> Terdapat Ratusan Materi Yang Tersedia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-success">
+                                <span class="bg-success"></span>
+                                <i class="fa fa-futbol fa-3x text-success"></i>
+                                <span class="bg-success"></span>
+                            </div>
+                            <div class="facility-text bg-success">
+                                <h3 class="text-success mb-3">Belajar & Bermain</h3>
+                                <p class="mb-0">Permainan Yang Mengasah Otak Sang Anak</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-warning">
+                                <span class="bg-warning"></span>
+                                <i class="fa fa-home fa-3x text-warning"></i>
+                                <span class="bg-warning"></span>
+                            </div>
+                            <div class="facility-text bg-warning">
+                                <h3 class="text-warning mb-3">Kapan Saja</h3>
+                                <p class="mb-0">Dapat Digunakan kapan saja dan dimana saja.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-info">
+                                <span class="bg-info"></span>
+                                <i class="fa fa-chalkboard-teacher fa-3x text-info"></i>
+                                <span class="bg-info"></span>
+                            </div>
+                            <div class="facility-text bg-info">
+                                <h3 class="text-info mb-3">Pembelajaran Yang Positif</h3>
+                                <p class="mb-0">Terdapat Materi Serta Actifity untuk buah hati tanpa membebani anak</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facilities End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">Pelajari Tentang CreatiLearn</h1>
+                        <p>CreatiLearn adalah wadah inovatif yang menggabungkan seni, teknologi, dan pendidikan dalam satu platform ajaib.</p>
+                        <p class="mb-4">.    Kami membawa transformasi pembelajaran yang inspiratif dan inovatif, melalui interaksi interaktif, tantangan kreatif, dan lingkungan yang penuh inspirasi, kami merangkul pembelajaran dengan cara yang unik. Jadikan setiap modul kami sebagai kanvas kosong untuk melukis cerita-cerita edukatif yang menghidupkan pengetahuan. Mari bergabung dan bersama-sama kita eksplorasi potensi tak terbatas dari pembelajaran yang kreatif dan menyenangkan di CreatiLearn.</p>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <a class="btn btn-primary rounded-pill py-3 px-5" href="tentang_kami.html">Baca Selengkapnya</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle flex-shrink-0" src="img/dela.jpg" alt="" style="width: 45px; height: 45px;">
+                                    <div class="ms-3">
+                                        <h6 class="text-primary mb-1">Dela Rahayu</h6>
+                                        <small>CEO & Founder</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/about-1.jpg" alt="">
+                            </div>
+                            <div class="col-6 text-start" style="margin-top: -150px;">
+                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-2.jpg" alt="">
+                            </div>
+                            <div class="col-6 text-end" style="margin-top: -150px;">
+                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Call To Action Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                            <div class="position-relative h-100">
+                                <img class="position-absolute w-100 h-100 rounded" src="img/call-to-action.jpg" style="object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="h-100 d-flex flex-column justify-content-center p-5">
+                                <h1 class="mb-4">Ayo Jadi Bagian Dari Kami</h1>
+                                <p class="mb-4">Daftarkan Anak Anda Menjadi 
+                                </p>
+                                <a class="btn btn-primary py-3 px-5" href="login/index.php">Daftarkan Sekarang!!<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call To Action End -->
+
+
+        <!-- Classes Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Materi</h1>
+                    <p> Di Bawah Ini Merupakan Materi Yang Ada Di CreatiLearn</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Berhitung</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">Ilham</h6>
+                                            <small>Pemateri</small>
+                                        </div>
+                                    </div>
+                                    <a href="index.html"><span class="bg-primary text-white rounded-pill py-2 px-3" >Modul</span></a>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Usia:</h6>
+                                            <small>3-5 Tahun</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Dibuat:</h6>
+                                            <small>12-Oktober-2023</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Activity:</h6>
+                                            <small>4 Materi</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-4.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="index.html">Membaca</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/munasya.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">Munasya</h6>
+                                            <small>Pemateri</small>
+                                        </div>
+                                    </div>
+                                    <a href="index.html"><span class="bg-primary text-white rounded-pill py-2 px-3">Modul</span></a>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Usia:</h6>
+                                            <small>3-5 Tahun</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Dibuat:</h6>
+                                            <small> 12-Oktober-2023</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Activity:</h6>
+                                            <small>4 Materi</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-3.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="index.html">Agama</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">windy</h6>
+                                            <small>Pemateri</small>
+                                        </div>
+                                    </div>
+                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Modul</span>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Umur:</h6>
+                                            <small>3-5 Tahun</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Dibuat:</h6>
+                                            <small>12-Oktober-2023</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Activity:</h6>
+                                            <small>4 Materi</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-4.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Science</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">Dela Rahayu</h6>
+                                            <small>Pemateri</small>
+                                        </div>
+                                    </div>
+                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Modul</span>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Umur:</h6>
+                                            <small>3-5 Tahun</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Dibuat:</h6>
+                                            <small>10-Oktober-2023</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Activity:</h6>
+                                            <small>4 Materi</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-5.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Flora & Fauna</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">Fahri</h6>
+                                            <small>Teacher</small>
+                                        </div>
+                                    </div>
+                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Modul</span>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Umur:</h6>
+                                            <small>3-5 Tahun</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Dibuat:</h6>
+                                            <small>10-Oktober-2023</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Activity:</h6>
+                                            <small>4 Materi</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-6.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Games</a>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                        <div class="ms-3">
+                                            <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                            <small>Teacher</small>
+                                        </div>
+                                    </div>
+                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">Testing</span>
+                                </div>
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-primary pt-2">
+                                            <h6 class="text-primary mb-1">Age:</h6>
+                                            <small>3-5 Years</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-success pt-2">
+                                            <h6 class="text-success mb-1">Time:</h6>
+                                            <small>9-10 AM</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="border-top border-3 border-warning pt-2">
+                                            <h6 class="text-warning mb-1">Capacity:</h6>
+                                            <small>30 Kids</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Classes End -->
+
+
+        <!-- Appointment Start -->
+        <div class="container">
+            <h3 class="text-center">Donasi</h3>
+            <center><h4><em>Semoga dengan donasi ini semoga CreatiLearn dapat lebih berkembang dikemudian hari</em></h4></center><br>
+      
+            <ol class="list-group list-group mb-3">
+                <li class="list-group-item fw-bold"><img src="bni.png" width="60px" height=""> NO.REK 4210296927</li>
+                <li class="list-group-item fw-bold"><img src="bca.png" width="60px" height=""> NO.REK 4210296927</li>
+                <li class="list-group-item text-center"><img src="qris.jpeg" width="250px" height=""></li>
+              </ol>
+            
+              <div class="row g-2 mb-3">
+                <div class="col-4">
+                  <div class="form-floating">
+                  </div>
+                </div>
+                  </div>
+            </form>
+          </div>
+          <center><h3>Terima Kasih</h3></center>
+        <!-- Appointment End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">CEO & FOUNDER</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
+                        eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/Munasya.jpg" alt="">
+                            <div class="team-text">
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                                <div class="d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/team-2.jpg" alt="">
+                            <div class="team-text">
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                                <div class="d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/team-3.jpg" alt="">
+                            <div class="team-text">
+                                <h3>Full Name</h3>
+                                <p>Designation</p>
+                                <div class="d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Pendapat Pengguna!</h1>
+                    <p>Kami Mengumpulkan Beberapa Komentar Dari Orang Tua Anak</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">Setelah Anak Saya Mengikuti Pembelajaran di CrealiLearn Anak Saya Menjadi Aktif Belajar.</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1">Gilang</h3>
+                                <span>Profession</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">Anak Menjadi Interaktif Terhadap Lingukangan</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1">Dela</h3>
+                                <span>Profession</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">Anak Saya Menjadi suka Tentang pelajaran tentang cerita-cerita nabi</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1">Client Name</h3>
+                                <span>Profession</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Tetap Terhubung</h3>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl.Margonda Raya</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 83193447383</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>creatilearn@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Link Cepat</h3>
+                        <a class="btn btn-link text-white-50" href="">Tentang Kami</a>
+                        <a class="btn btn-link text-white-50" href="">Kontak Kami</a>
+                        <a class="btn btn-link text-white-50" href="">Service</a>
+                        <a class="btn btn-link text-white-50" href="">Ketentuan</a>
+                        <a class="btn btn-link text-white-50" href="">Donasi</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Photo Gallery</h3>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Newsletter</h3>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">CreatiLearn</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">Devfuture</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+   
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+
+   <style>
+   body {
+     font-family: "Lato", sans-serif;
+     background: #f1f1f1;
+   }
+   a:link, a:visited {
+     color: #444;
+     text-decoration: none;
+     transition: all 0.4s ease-in-out;
+   }
+   h1 {
+     font-size: 58px;
+     text-align: center;
+     display: block;
+   
+     padding: 20px;
+     color: #fff;
+     border-radius: 50px;
+   }
+   /* CSS Multiple Whatsapp Chat */
+   .whatsapp-name {
+     font-size: 16px;
+     font-weight: 600;
+     padding-bottom: 0;
+     margin-bottom: 0;
+     line-height: 0.5;
+   }
+   #whatsapp-chat {
+     box-sizing: border-box !important;
+     outline: none !important;
+     position: fixed;
+     width: 350px;
+     border-radius: 10px;
+     box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+     bottom: 90px;
+     right: 30px;
+     overflow: hidden;
+     z-index: 99;
+     animation-name: showchat;
+     animation-duration: 1s;
+     transform: scale(1);
+   }
+   a.blantershow-chat {
+     /*   background: #009688; */
+     background: #fff;
+     color: #404040;
+     position: fixed;
+     display: flex;
+     font-weight: 400;
+     justify-content: space-between;
+     z-index: 98;
+     bottom: 25px;
+     right: 30px;
+     font-size: 15px;
+     padding: 10px 20px;
+     border-radius: 30px;
+     box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+   }
+   a.blantershow-chat svg {
+     transform: scale(1.2);
+     margin: 0 10px 0 0;
+   }
+   .header-chat {
+     /*   background: linear-gradient(to right top, #6f96f3, #164ed2); */
+     background: #009688;
+     background: #095e54;
+     color: #fff;
+     padding: 20px;
+   }
+   .header-chat h3 {
+     margin: 0 0 10px;
+   }
+   .header-chat p {
+     font-size: 14px;
+     line-height: 1.7;
+     margin: 0;
+   }
+   .info-avatar {
+     position: relative;
+   }
+   .info-avatar img {
+     border-radius: 100%;
+     width: 50px;
+     float: left;
+     margin: 0 10px 0 0;
+   }
+   a.informasi {
+     padding: 20px;
+     display: block;
+     overflow: hidden;
+     animation-name: showhide;
+     animation-duration: 0.5s;
+   }
+   a.informasi:hover {
+     background: #f1f1f1;
+   }
+   .info-chat span {
+     display: block;
+   }
+   #get-label, span.chat-label {
+     font-size: 12px;
+     color: #888;
+   }
+   #get-nama, span.chat-nama {
+     margin: 5px 0 0;
+     font-size: 15px;
+     font-weight: 700;
+     color: #222;
+   }
+   #get-label, #get-nama {
+     color: #fff;
+   }
+   span.my-number {
+     display: none;
+   }
+   /* .blanter-msg {
+    color: #444;
+    padding: 20px;
+    font-size: 12.5px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    } */
+   textarea#chat-input {
+     border: none;
+     font-family: "Arial", sans-serif;
+     width: 100%;
+     height: 20px;
+     outline: none;
+     resize: none;
+     padding: 10px;
+     font-size: 14px;
+   }
+   a#send-it {
+     width: 30px;
+     font-weight: 700;
+     padding: 10px 10px 0;
+     background: #eee;
+     border-radius: 10px;
+   }
+   a#send-it svg {
+     fill: #a6a6a6;
+     height: 24px;
+     width: 24px;
+   }
+   .first-msg {
+     background: transparent;
+     padding: 30px;
+     text-align: center;
+   }
+   .first-msg span {
+     background: #e2e2e2;
+     color: #333;
+     font-size: 14.2px;
+     line-height: 1.7;
+     border-radius: 10px;
+     padding: 15px 20px;
+     display: inline-block;
+   }
+   .start-chat .blanter-msg {
+     display: flex;
+   }
+   #get-number {
+     display: none;
+   }
+   a.close-chat {
+     position: absolute;
+     top: 5px;
+     right: 15px;
+     color: #fff;
+     font-size: 30px;
+   }
+   @keyframes ZpjSY {
+     0% {
+       background-color: #b6b5ba;
+     }
+     15% {
+       background-color: #111;
+     }
+     25% {
+       background-color: #b6b5ba;
+     }
+   }
+   @keyframes hPhMsj {
+     15% {
+       background-color: #b6b5ba;
+     }
+     25% {
+       background-color: #111;
+     }
+     35% {
+       background-color: #b6b5ba;
+     }
+   }
+   @keyframes iUMejp {
+     25% {
+       background-color: #b6b5ba;
+     }
+     35% {
+       background-color: #111;
+     }
+     45% {
+       background-color: #b6b5ba;
+     }
+   }
+   @keyframes showhide {
+     from {
+       transform: scale(0.5);
+       opacity: 0;
+     }
+   }
+   @keyframes showchat {
+     from {
+       transform: scale(0);
+       opacity: 0;
+     }
+   }
+   @media screen and (max-width: 480px) {
+     #whatsapp-chat {
+       width: auto;
+       left: 5%;
+       right: 5%;
+       font-size: 80%;
+     }
+   }
+   .hide {
+     display: none;
+     animation-name: showhide;
+     animation-duration: 0.5s;
+     transform: scale(1);
+     opacity: 1;
+   }
+   .show {
+     display: block;
+     animation-name: showhide;
+     animation-duration: 0.5s;
+     transform: scale(1);
+     opacity: 1;
+   }
+   .whatsapp-message-container {
+     display: flex;
+     z-index: 1;
+   }
+   .whatsapp-message {
+     padding: 7px 14px 6px;
+     background-color: white;
+     border-radius: 0px 8px 8px;
+     position: relative;
+     transition: all 0.3s ease 0s;
+     opacity: 0;
+     transform-origin: center top 0px;
+     z-index: 2;
+     box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+     margin-top: 4px;
+     margin-left: -54px;
+     max-width: calc(100% - 66px);
+   }
+   .whatsapp-chat-body {
+     padding: 20px 20px 20px 10px;
+     background-color: #e6ddd4;
+     position: relative;
+   }
+   .whatsapp-chat-body::before {
+     display: block;
+     position: absolute;
+     content: "";
+     left: 0px;
+     top: 0px;
+     height: 100%;
+     width: 100%;
+     z-index: 0;
+     opacity: 0.08;
+     background-image: url("https://elfsight.com/assets/chats/patterns/whatsapp.png");
+   }
+   .dAbFpq {
+     display: flex;
+     z-index: 1;
+   }
+   .eJJEeC {
+     background-color: white;
+     width: 52.5px;
+     height: 32px;
+     border-radius: 16px;
+     display: flex;
+     -moz-box-pack: center;
+     justify-content: center;
+     -moz-box-align: center;
+     align-items: center;
+     margin-left: 10px;
+     opacity: 0;
+     transition: all 0.1s ease 0s;
+     z-index: 1;
+     box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+   }
+   .hFENyl {
+     position: relative;
+     display: flex;
+   }
+   .ixsrax {
+     height: 5px;
+     width: 5px;
+     margin: 0px 2px;
+     border-radius: 50%;
+     display: inline-block;
+     position: relative;
+     animation-duration: 1.2s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     top: 0px;
+     background-color: #9e9da2;
+     animation-name: ZpjSY;
+   }
+   .dRvxoz {
+     height: 5px;
+     width: 5px;
+     margin: 0px 2px;
+     background-color: #b6b5ba;
+     border-radius: 50%;
+     display: inline-block;
+     position: relative;
+     animation-duration: 1.2s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     top: 0px;
+     animation-name: hPhMsj;
+   }
+   .kAZgZq {
+     padding: 7px 14px 6px;
+     background-color: white;
+     border-radius: 0px 8px 8px;
+     position: relative;
+     transition: all 0.3s ease 0s;
+     opacity: 0;
+     transform-origin: center top 0px;
+     z-index: 2;
+     box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+     margin-top: 4px;
+     margin-left: -54px;
+     max-width: calc(100% - 66px);
+   }
+   .kAZgZq::before {
+     position: absolute;
+     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpccPDw9ra2m9vbwAAAAAAADExMf///wAAABoaGk9PT7q6uqurqwsLCycnJz4+PtDQ0JycnIyMjPf3915eXvz8/E9PT/39/RMTE4CAgAAAAJqamv////////r6+u/v7yUlJeXl5f///5ycnOXl5XNzc/Hx8f///xUVFf///+zs7P///+bm5gAAAM7Ozv///2fVensAAAAvdFJOUwCow1cBCCnqAhNAnY0WIDW2f2/hSeo99g1lBYT87vDXG8/6d8oL4sgM5szrkgl660OiZwAAAHRJREFUKM/ty7cSggAABNFVUQFzwizmjPz/39k4YuFWtm55bw7eHR6ny63+alnswT3/rIDzUSC7CrAziPYCJCsB+gbVkgDtVIDh+DsE9OTBpCtAbSBAZSEQNgWIygJ0RgJMDWYNAdYbAeKtAHODlkHIv997AkLqIVOXVU84AAAAAElFTkSuQmCC");
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: contain;
+     content: "";
+     top: 0px;
+     left: -12px;
+     width: 12px;
+     height: 19px;
+   }
+   .bMIBDo {
+     font-size: 13px;
+     font-weight: 700;
+     line-height: 18px;
+     color: rgba(0, 0, 0, 0.4);
+   }
+   .iSpIQi {
+     font-size: 14px;
+     line-height: 19px;
+     margin-top: 4px;
+     color: #111;
+   }
+   .iSpIQi {
+     font-size: 14px;
+     line-height: 19px;
+     margin-top: 4px;
+     color: #111;
+   }
+   .cqCDVm {
+     text-align: right;
+     margin-top: 4px;
+     font-size: 12px;
+     line-height: 16px;
+     color: rgba(17, 17, 17, 0.5);
+     margin-right: -8px;
+     margin-bottom: -4px;
+   }
+   </style>
+       <!-- JavaScript Libraries -->
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+       <script src="lib/wow/wow.min.js"></script>
+       <script src="lib/easing/easing.min.js"></script>
+       <script src="lib/waypoints/waypoints.min.js"></script>
+       <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   
+       <!-- Template Javascript -->
+       <script src="js/main.js"></script>
+   </body>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+   <script src="js/search.js"></script>
+    </body>
+    <div id='whatsapp-chat' class='hide'>
+        <div class='header-chat'>
+          <div class='head-home'>
+            <div class='info-avatar'><img src='./images/devfuture.png' /></div>
+            <p><span class="whatsapp-name">DevFuture</span><br><small> Online</small></p>
+      
+          </div>
+          <div class='get-new hide'>
+            <div id='get-label'></div>
+            <div id='get-nama'></div>
+          </div>
+        </div>
+        <div class='home-chat'>
+      
+        </div>
+        <div class='start-chat'>
+          <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png" class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
+            <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+              <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
+                <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"></div>
+                </div>
+              </div>
+              <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
+                <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">DevFuture</div>
+                <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">Halo 👋<br><br>Ada Yang Bisa Saya Bantu?</div>
+                <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class='blanter-msg'>
+            <textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
+            <a href='javascript:void;' id='send-it'><svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg></a>
+      
+          </div>
+        </div>
+        <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
+      </div>
+      <div id='whatsapp-chat' class='hide'>
+        <div class='header-chat'>
+          <div class='head-home'>
+            <div class='info-avatar'><img src='./images/devfuture.png' /></div>
+            <p><span class="whatsapp-name">DevFuture</span><br><small>Akan Dibalas</small></p>
+      
+          </div>
+          <div class='get-new hide'>
+            <div id='get-label'></div>
+            <div id='get-nama'></div>
+          </div>
+        </div>
+        <div class='home-chat'>
+      
+        </div>
+        <div class='start-chat'>
+          <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png" class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
+            <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+              <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
+                <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"></div>
+                </div>
+              </div>
+              <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
+                <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">DevFuture</div>
+                <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">Hi there 👋<br><br>How can I help you?</div>
+                <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class='blanter-msg'>
+            <textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
+            <a href='javascript:void;' id='send-it'><svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg></a>
+      
+          </div>
+        </div>
+        <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
+      </div>
+   <a class='blantershow-chat' href='javascript:void' title='Show Chat'><svg width="20" viewBox="0 0 24 24"><defs/><path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg> Chat with Us</a>
+   <script>/* Whatsapp Chat Widget by www.bloggermix.com */
+     $(document).on("click", "#send-it", function() {
+       var a = document.getElementById("chat-input");
+       if ("" != a.value) {
+         var b = $("#get-number").text(),
+           c = document.getElementById("chat-input").value,
+           d = "https://web.whatsapp.com/send",
+           e = b,
+           f = "&text=" + c;
+         if (
+           /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+             navigator.userAgent
+           )
+         )
+           var d = "whatsapp://send";
+         var g = d + "?phone=++62 85889876706" + e + f;
+         window.open(g, "_blank");
+       }
+     }),
+       $(document).on("click", ".informasi", function() {
+         (document.getElementById("get-number").innerHTML = $(this)
+           .children(".my-number")
+           .text()),
+           $(".start-chat,.get-new")
+             .addClass("show")
+             .removeClass("hide"),
+           $(".home-chat,.head-home")
+             .addClass("hide")
+             .removeClass("show"),
+           (document.getElementById("get-nama").innerHTML = $(this)
+             .children(".info-chat")
+             .children(".chat-nama")
+             .text()),
+           (document.getElementById("get-label").innerHTML = $(this)
+             .children(".info-chat")
+             .children(".chat-label")
+             .text());
+       }),
+       $(document).on("click", ".close-chat", function() {
+         $("#whatsapp-chat")
+           .addClass("hide")
+           .removeClass("show");
+       }),
+       $(document).on("click", ".blantershow-chat", function() {
+         $("#whatsapp-chat")
+           .addClass("show")
+           .removeClass("hide");
+       });
+     </script>
+</html>
